@@ -1,0 +1,3 @@
+https://www.datacamp.com/community/tutorials/python-regular-expression-tutorial
+https://regexone.com/references/python
+https://www.py4e.com

@@ -1,0 +1,40 @@
+https://quantrimang.com/regex-trong-python-165471
+https://www.w3schools.com/python/python_regex.asp
+
+Metacharacters
+
+^…$	Starts and ends, moi dau cham la 1 ky tu
+
+abc Letters
+123	Digits
+
+\d	Any Digit, giong [0-9]
+\D	Any Non-digit character, giong [^0-9]
+.	Any Character
+\.	Period
+\w	Any Alphanumeric character a-zA-Z0-9_
+\W	Any Non-alphanumeric character
+\s	Any Whitespace, \t\n\f\r
+\S	Any Non-whitespace character
+
+
+trong cap ngoac vuong [] la cac ky tu thong thuong
+[abc]	Only a, b, or c 
+[^abc]	Not a, b, nor c
+[a-z]	Characters a to z
+[a-zA-Z]	Characters a to z
+[0-9]	Numbers 0 to 9
+(abc|def)	Matches abc or def
+
+{m}	m Repetitions
+a{2,3}
+
+{m,n}	m to n Repetitions
+
+*	Zero or more repetitions
+ma*n (man, maan, mn) (main, min)
+
++	One or more repetitions
+
+?	toi da 1 character
+ma?n (mn, man) (maan, main, min)
